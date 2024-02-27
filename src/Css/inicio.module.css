@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    font-size: 1rem;
+    background-color: #fff;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 20px;
+    height: calc(100vh - 70px);
+    background-color: #fff;
+  }
+  
+  .titulo {
+    font-size: 2.7em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .nombre {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .profesion,
+  .localidad,
+  .email {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el propósito */
+  .tituloProposito {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .proposito {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilos de la barra de navegación */
+  header {
+    background-color: #e8fdff;
+    padding: 15px 0;
+  }
+  
+  header a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  
+  header a:hover {
+    color: #3498db;
+  }
